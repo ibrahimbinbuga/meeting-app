@@ -1,0 +1,57 @@
+/* frontend/src/App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
+.upload-container {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  text-align: center;
+}
+
+.upload-container h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.upload-container input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.upload-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.upload-container button:disabled {
+  background-color: #9ec5fe;
+  cursor: not-allowed;
+}
+
+.upload-container pre,
+.upload-container p {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #444;
+}

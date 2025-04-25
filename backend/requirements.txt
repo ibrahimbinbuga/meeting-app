@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+deepface
+transformers
+pillow
+openai-whisper
+ffmpeg-python
