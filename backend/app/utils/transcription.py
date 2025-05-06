@@ -23,8 +23,8 @@ def transcribe_video(video_path: str):
     extract_audio(video_path, audio_path)
 
     # 2. Whisper ile transkripte çevir
-    model = whisper.load_model("base")  # "tiny", "base", "small", "medium", "large"
-    result = model.transcribe(audio_path, language="tr")
+    model = whisper.load_model("medium")  # "tiny", "base", "small", "medium", "large"
+    result = model.transcribe(audio_path, language="en")
 
     # 3. Geçici ses dosyasını sil
     if os.path.exists(audio_path):
